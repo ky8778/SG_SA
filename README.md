@@ -1,2 +1,2 @@
 # SG_SA
-### Study Group SWEA A Test
+### Study Group SWEA A
