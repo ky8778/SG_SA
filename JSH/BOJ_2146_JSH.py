@@ -2,6 +2,7 @@ def numbering(i, j, cnt):
     dy = [-1, 0, 1, 0]
     dx = [0, 1, 0, -1]
     queue = [[i, j]]
+    edge_lst = []
 
     while queue:
         lst = queue.pop(0)
@@ -12,10 +13,14 @@ def numbering(i, j, cnt):
             if 0 <= y+dy[dir] <= N-1 and 0 <= x+dx[dir] <= N-1:
                 if field[y+dy[dir]][x+dx[dir]] == 1:
                     queue.append([y+dy[dir], x+dx[dir]])
+                elif field[y+dy[dir]][x+dx[dir]] == 0:
+                    if [y,x] not in edge_lst:
+                        edge_lst.append([y,x])
+    edge.append(edge_lst)
 
-def BFS(y, x, value):
+def BFS(value):
     global result
-    queue = [[y, x]]
+    queue = edge[value-2][:]
     dy = [-1, 0, 1, 0]
     dx = [0, 1, 0, -1]
     cnt = 0
@@ -46,7 +51,7 @@ N = int(input())
 field = []
 for _ in range(N):
     field.append(list(map(int,input().split())))
-
+edge = []
 cnt = 1
 for i in range(N):
     for j in range(N):
@@ -54,10 +59,12 @@ for i in range(N):
             cnt += 1
             numbering(i, j, cnt)
 
+check = 2
 result = 200
 for i in range(N):
     for j in range(N):
-        if field[i][j] != 0:
-            BFS(i, j, field[i][j])
+        if field[i][j] == check:
+            BFS(check)
+            check += 1
 
 print(result)
