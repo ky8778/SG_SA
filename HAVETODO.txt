@@ -1,4 +1,4 @@
-https://www.acmicpc.net/workbook/view/2063
+﻿https://www.acmicpc.net/workbook/view/2063
 
 2020.02.03
 다리만들기 BJ2146 : https://www.acmicpc.net/problem/2146
@@ -12,5 +12,5 @@ https://www.acmicpc.net/workbook/view/2063
 주사위 윷놀이 BJ17825 : https://www.acmicpc.net/problem/17825
 
 2020.02.06
-이차원 배열과 연산 BJ17140 : https://www.acmicpc.net/problem/17825
+이차원 배열과 연산 BJ17140 : https://www.acmicpc.net/problem/17140
 원판돌리기 BJ17822 : https://www.acmicpc.net/problem/17822
