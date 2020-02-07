@@ -14,3 +14,7 @@
 2020.02.06
 이차원 배열과 연산 BJ17140 : https://www.acmicpc.net/problem/17140
 원판돌리기 BJ17822 : https://www.acmicpc.net/problem/17822
+
+2020.02.07
+게리맨더링2 BJ17779 : https://www.acmicpc.net/problem/17779
+낚시왕 BJ17143 : https://www.acmicpc.net/problem/17143
