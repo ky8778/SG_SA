@@ -22,3 +22,7 @@
 2020.02.10
 감시 BJ15683 : https://www.acmicpc.net/problem/15683
 구슬탈출2 BJ13460 : https://www.acmicpc.net/problem/13460
+
+2020.02.11
+연구소3 BJ17142 : https://www.acmicpc.net/problem/17142
+2048(Easy) BJ12100 : https://www.acmicpc.net/problem/12100
