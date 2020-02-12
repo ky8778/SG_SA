@@ -26,3 +26,7 @@
 2020.02.11
 연구소3 BJ17142 : https://www.acmicpc.net/problem/17142
 2048(Easy) BJ12100 : https://www.acmicpc.net/problem/12100
+
+2020.02.12
+나무재테크 BJ16235 : https://www.acmicpc.net/problem/16235
+큐빙 BJ5373 : https://www.acmicpc.net/problem/5373
